@@ -150,7 +150,7 @@ function updatePrice() {
     updatePrice();
 
     for (let i = 0; i<elements.length; i++) {
-        if (items[i].quantity != 0) {
+        if (elements[i].quantity != 0) {
           console.log(
             "Item name: " +
              elements[i].name +
